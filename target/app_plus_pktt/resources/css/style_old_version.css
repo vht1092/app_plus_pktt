@@ -1,0 +1,455 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    width: 100%;
+    height: 70px;     
+    background: -webkit-linear-gradient(bottom, #00648F 10%, #5E9BB4 90%);
+    position: fixed;
+}
+.nameProject{
+    width: 50%;
+    height: 70px;
+    float: left;
+}
+.nameProject p{
+    color: #EFF0F0;
+    font-size: 25px;
+    line-height: 70px;
+    margin-left: 2%;
+}
+.nameProject p a{
+    color: #EFF0F0;
+    font-size: 25px;
+    line-height: 70px;
+    margin-left: 2%;
+    text-decoration: none;
+}
+.userLogin{
+    color: #EFF0F0;    
+    width: 50%;    
+    height: 70px;    
+    float: right;
+    font-weight: bold;
+    line-height: 30px;    
+}
+.userLogin p{
+    float: right;
+    width: 40%;
+    color: #EFF0F0; 
+}
+
+.leftContent{
+    width: 20%;    
+    float: left;
+    height: 1000px;
+}
+
+.leftmenu{    
+    margin-top: 8%;
+    background-color: #E7E8FA;    
+    width: 15%;
+    height: 400px;
+    position: fixed;
+    margin-left: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 5px 10px 8px #7AA6D2;
+}
+.iss{
+    list-style-type: none;
+}
+.p1{
+    background-color: #136F96;
+    color: whitesmoke;
+    padding: 1%;
+    border-radius: 8px;
+    border: 1px solid;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.iss > li{
+    color: #0073A2;
+    margin-top: 8px;
+    font-weight: bold;
+    margin-left: 4%;
+    padding: 0.5%;
+}
+.iss > li:hover{
+    background: linear-gradient(to right, #0073A2 , #9DB6CA);
+    color: white;
+    cursor: pointer;
+}
+
+.iss > li > a{
+    text-decoration: none;
+    color: #0073A2;
+}
+.iss > li > a:hover{
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+.titleContent{
+    margin-top: 3.5%;
+    background-color: #0073A2;
+    width: 76%;
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    position: fixed;
+    padding-left: 2%;
+}
+.themThongTinTraSoatISS{
+    width: 100%;
+    
+    align-content: center;
+    text-align: center;    
+    
+    position: fixed;
+    
+    border-radius: 8px;
+    padding-top: -100px;
+}
+
+#thediv_scroll{
+    
+    height: 320px;    
+    padding: 5px 5px 5px 5px;/* canh chinh noi dung va le the div*/
+    overflow:auto; /* thuoc tinh nay lam xuat hien thanh cuon*/
+}
+table{
+    width: 98%;
+    height: auto;
+    border-collapse: collapse;
+    /*border: 1px solid;*/
+    border: none;
+}
+
+table td{
+    width: 25%;
+    padding: 1%;
+    border: none;
+    /*border: 1px solid;*/
+}
+table td p{
+    float: left;
+    width: 50%;    
+    text-align: left;
+    color: #224499;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+table td span{
+    width: 50%;    
+    text-align: left;
+    color: #224499;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+table td input{
+    box-sizing: border-box;
+    border: 2px solid #AACBEE;
+    border-radius: 4px;
+    height: 20px;
+}
+table td select, option{
+    box-sizing: border-box;
+    border: 2px solid #AACBEE;
+    border-radius: 4px;
+    height: 20px;
+}
+.saveCreateISS{
+    width: 18%; 
+    float: left; 
+    background-color: #2C5680; 
+    border-radius: 5px; 
+    color: whitesmoke; 
+    padding-top: 1%; 
+    padding-bottom: 4%;
+}
+.saveCreateISS:hover{
+    background-color: #00648F;
+    cursor: pointer;
+}
+.back_2b{
+    width: 18%; 
+    float: left; 
+    background-color: #2C5680; 
+    border-radius: 5px; 
+    color: whitesmoke; 
+    padding-top: 1%; 
+    padding-bottom: 4%;
+    height: 6px;
+    text-decoration: none
+}
+.back_2b:hover{
+    background-color: #00648F;
+    cursor: pointer;
+}
+.saveCreateATM{
+    width: 18%; 
+    float: left; 
+    background-color: #2C5680; 
+    border-radius: 5px; 
+    color: whitesmoke; 
+    padding-top: 1%; 
+    padding-bottom: 4%;
+}
+.saveCreateACQ{
+    width: 12%; 
+    float: left; 
+    background-color: #2C5680; 
+    border-radius: 5px; 
+    color: whitesmoke; 
+    padding-top: 0.5%; 
+    padding-bottom: 4%;
+}
+.resetCreateISS{
+    width: 16%; 
+    float: left; 
+    border: 1px solid #AACBEE; 
+    border-radius: 5px; 
+    background-color: #2C5680; 
+    color: whitesmoke; 
+    padding-top: 1%; 
+    padding-bottom: 1%;
+}
+.resetCreateISS:hover{
+    background-color: #00648F;
+    cursor: pointer;
+}
+.resetCreateATM{
+    width: 16%; 
+    float: left; 
+    border: 1px solid #AACBEE; 
+    border-radius: 5px; 
+    background-color: #2C5680; 
+    color: whitesmoke; 
+    padding-top: 1%; 
+    padding-bottom: 1%;
+}
+.resetCreateACQ{
+    width: 12%; 
+    float: left; 
+    border: 1px solid #AACBEE; 
+    border-radius: 5px; 
+    background-color: #2C5680; 
+    color: whitesmoke; 
+    padding-top: 0.8%; 
+    padding-bottom: 0.5%;
+}
+.resetCreateACQ:hover{
+    cursor: pointer;
+}
+
+.saveCreateISS:hover{
+    background-color: #00648F;
+    cursor: pointer;
+}
+
+
+.tableTruyVanISS{
+    width: 98%;
+    height: auto;
+    border-collapse: collapse;
+    /*border: 1px solid;*/
+}
+.tableTruyVanISS tr, td, th{
+    /*border: 1px solid;*/
+}
+.tableTruyVanISS td{
+    width: 16%;    
+    border: none;
+}
+.tableTruyVanISS td p{
+    float: left;
+    width: 50%;    
+    text-align: left;
+    color: #224499;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+}
+
+.tableTruyVanISS td input{
+    box-sizing: border-box;
+    border: 2px solid #AACBEE;
+    border-radius: 4px;
+    height: 20px;
+}
+
+
+
+.searchISS{
+    width: 16%; 
+    float: left; 
+    background-color: #2C5680; 
+    border-radius: 5px; 
+    color: whitesmoke; 
+    padding-top: 1%; 
+    padding-bottom: 4%;
+}
+.searchISS:hover{
+    background-color: #00648F;
+    cursor: pointer;
+}
+.searchEB{
+    width: 8%; 
+    float: left; 
+    background-color: #2C5680; 
+    border-radius: 5px; 
+    color: whitesmoke; 
+    padding-top: 0.8%; 
+    padding-bottom: 2%;
+}
+.searchEB:hover{
+    background-color: #00648F;
+    cursor: pointer;
+}
+.exportISS{
+    width: 16%; 
+    float: left; 
+    border: 1px solid #AACBEE; 
+    border-radius: 5px; 
+    background-color: #2C5680; 
+    color: whitesmoke; 
+    padding-top: 1%; 
+    padding-bottom: 0.6%;
+}
+
+.exportISS:hover{
+    background-color: #00648F;
+    cursor: pointer;
+}
+.exportEB{
+    width: 8%; 
+    float: left; 
+    border: 1px solid #AACBEE; 
+    border-radius: 5px; 
+    background-color: #2C5680; 
+    color: whitesmoke; 
+    padding-top: 1%; 
+    padding-bottom: 0.6%;
+}
+
+.exportEB:hover{
+    background-color: #00648F;
+    cursor: pointer;
+}
+/*========*/
+.dropbtn1 {
+    color: white;
+    border: none;
+    cursor: pointer;
+    color: #0073A2;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown1-content {
+    display: none;
+    position: absolute;
+    background-color: #E7E8FA;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown1-content a {
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown1-content a:hover {background-color: #E7E8FA; width: 90%; color: red}
+
+.dropdown1:hover .dropdown1-content {
+    display: block;
+    color: white;
+}
+
+.dropdown1:hover .dropbtn1 {
+    background-color: #3e8ex41;
+    color: white;
+}
+
+/*========*/
+
+
+.footerHomepage{
+
+}
+.logout{
+    text-decoration: none;
+    color: greenyellow;
+}
+.logout:hover{
+    text-decoration: underline;
+}
+.marquee-success{
+    font-weight: bold; 
+    float: left; 
+    color: darkgreen; 
+    behavior: "alternate";
+    width: 40%
+}
+.marquee-fail{
+    font-weight: bold; 
+    float: left; 
+    color: red; 
+    behavior: "alternate";
+    width: 80%
+}
+
+.detailEbank:link, .detailEbank:visited {
+
+    color: darkblue;
+    padding: 1px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.detailEbank:hover, .detailEbank:active {
+    text-decoration: underline;
+}
+
+/**/
+.download-file{
+    background-color: red;
+    color: yellow;
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 3px;
+}
+.download-file:hover{
+    text-decoration: underline;
+}

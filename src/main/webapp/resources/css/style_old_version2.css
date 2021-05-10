@@ -1,0 +1,57 @@
+.rightContent {
+	width: 100%;
+	float: right;
+	margin-top: 250px;
+}
+
+.themThongTinTraSoatISS {
+	width: 100%;
+	align-content: center;
+	text-align: center;
+	border-radius: 8px;
+	margin-left: -120px
+}
+
+#thediv_scroll {
+	padding: 5px 5px 5px 5px; /* canh chinh noi dung va le the div*/
+	overflow: auto; /* thuoc tinh nay lam xuat hien thanh cuon*/
+}
+
+.tableTruyVanISS1 {
+	width: 650%;
+	border-collapse: collapse;
+}
+
+.tableTruyVanISS1 td, th {
+	font-size: 12px;	
+}
+
+.tableTruyVanISS1 td p {
+	float: left;
+	text-align: left;
+	color: #224499;
+	font-weight: bold;
+}
+
+.tableTruyVanISS1 input {
+	box-sizing: border-box;	
+	border-radius: 4px;
+	height: 20px;
+}
+
+.tableTruyVanISS1 tr:hover {
+	background-color: white;
+}
+
+.tableTruyVanISS1 .header-table:hover {
+	background-color: #29827B;
+}
+
+#thediv_scroll {
+	padding: 5px 5px 5px 5px; /* canh chinh noi dung va le the div*/
+	overflow: auto; /* thuoc tinh nay lam xuat hien thanh cuon*/
+}
+
+.rows > td {
+	border: 1px solid #D5EAD5;
+}

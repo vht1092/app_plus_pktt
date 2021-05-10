@@ -1,0 +1,202 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	width: 100%;
+	height: auto;
+}
+
+body {
+	width: 100%;
+	height: auto;
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	background: -webkit-linear-gradient(bottom, #00648F 10%, #5E9BB4 90%);
+	position: fixed;
+}
+
+.nameProject {
+	width: 50%;
+	height: 60px;
+	float: left;
+}
+
+.nameProject p {
+	color: #EFF0F0;
+	font-size: 25px;
+	line-height: 30px;
+	margin-left: 2%;
+}
+
+.nameProject p a {
+	color: #EFF0F0;
+	font-size: 25px;
+	line-height: 60px;
+	margin-left: 2%;
+	text-decoration: none;
+}
+
+.menu-bar {
+	background: #00648F;
+	width: 100%;
+	height: 50px;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 6%
+}
+
+.menu-bar>.dropdown {
+	font-size: 12px;
+	font-weight: bold;
+	width: 22%;
+	margin-left: 1%;
+	color: #00648F;
+	float: left;
+}
+
+.leftContent {
+	width: 20%;
+	float: left;
+	height: 1000px;
+}
+
+.rightContent {
+	width: 80%;
+	height: 1000px;
+	float: right;
+	padding-top: 70px;
+}
+
+.userLogin {
+	color: #EFF0F0;
+	width: 50%;
+	height: 70px;
+	float: right;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.titleContent {
+	margin-top: 3.5%;
+	background-color: #0073A2;
+	width: 76%;
+	color: whitesmoke;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	position: fixed;
+	padding-left: 2%;
+}
+
+table {
+	width: 98%;
+	height: auto;
+	border-collapse: collapse;
+	/*border: 1px solid;*/
+	border: none;
+}
+
+table td {
+	width: 25%;
+	padding: 1%;
+	border: none;
+	/*border: 1px solid;*/
+}
+
+table td p {
+	float: left;
+	width: 50%;
+	text-align: left;
+	color: #224499;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+table td span {
+	width: 50%;
+	text-align: left;
+	color: #224499;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+table td input {
+	box-sizing: border-box;
+	border: 2px solid #AACBEE;
+	border-radius: 4px;
+	height: 20px;
+}
+
+table td select, option {
+	box-sizing: border-box;
+	border: 2px solid #AACBEE;
+	border-radius: 4px;
+	height: 20px;
+}
+
+.userLogin p {
+	float: right;
+	width: 40%;
+	color: #EFF0F0;
+}
+
+.logout {
+	text-decoration: none;
+	color: greenyellow;
+}
+
+.logout:hover {
+	text-decoration: underline;
+}
+
+.title-content {
+	box-shadow: 8px 8px 16px 0px #5E9BB4;
+	background-color: #00648F;
+	color: white;
+	width: 40%;
+	margin-left: 25%;
+	margin-right: 30%;
+	border-radius: 0px 0px 8px 8px;
+	padding: 2px;
+	padding-left: 1%;
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	margin-top: 45px;
+}
+
+.form-search-iss input {
+	width: auto;
+}		
+		
+#case_Pending, #case_Offline, #RetrievalRequest, #Chargeback_Dispute, #Arbitration_Chargeback, #Pre_Arbitration,
+#Pre_Arbitration_Response, #Arbitration, #Done{
+	width: 240px;
+	float: left;
+	
+}	
+
+#case_Pending, #case_Offline, #RetrievalRequest, #Chargeback_Dispute, #Arbitration_Chargeback, #Pre_Arbitration,
+#Pre_Arbitration_Response, #Arbitration, #Done > input{
+	width: 240px;
+	float: left;
+}	
+
+#case_Pending, #case_Offline, #RetrievalRequest, #Chargeback_Dispute, #Arbitration_Chargeback, #Pre_Arbitration,
+#Pre_Arbitration_Response, #Arbitration, #Done > select{
+	width: 240px;
+	float: left;
+}
+
+#case_Pending, #case_Offline, #RetrievalRequest, #Chargeback_Dispute, #Arbitration_Chargeback, #Pre_Arbitration,
+#Pre_Arbitration_Response, #Arbitration, #Done > span{
+	width: 240px;
+	float: left;
+}
